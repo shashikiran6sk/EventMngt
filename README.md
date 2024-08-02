@@ -8,23 +8,23 @@ To run this application locally, you need to have Docker and npm installed. Foll
 
 1. Clone the repository
  
-       - git clone https://github.com/your_username/your_repo.git
+       git clone https://github.com/shashikiran6sk/EventMngt/
 
-       - cd your_repo
+       cd EventMngt
 
 Install dependencies
 
-     -npm install express mongoose body-parser
+     npm install express mongoose body-parser
 
-     -npm install typescript ts-node @types/node @types/express @types/body-parser
+     npm install typescript ts-node @types/node @types/express @types/body-parser
 
 Compile TypeScript files
 
-     -npx tsc
+     npx tsc
 
 Start the application
 
-      node dist/index.js
+     node dist/index.js
 
 The application will be running on port 3000.
 
@@ -47,6 +47,8 @@ Book tickets for an event. The request body should contain the user ID, quantity
 -    DELETE /bookings/
 
 Cancel a booking by ID.
+
+
 ![image](https://github.com/user-attachments/assets/801f53ba-cf2f-4384-a55b-52e0d8fb00d9)
 
 -    GET /events
@@ -54,7 +56,7 @@ Cancel a booking by ID.
 Retrieve a list of events with available tickets.
 ![image](https://github.com/user-attachments/assets/b3918dd8-6e0a-4912-89b2-5f3231694d52)
 
--     GET /events/:id
+-    GET /events/:id
 
 Retrieve details of a specific event, including booked tickets and remaining tickets.
 

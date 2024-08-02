@@ -4,13 +4,27 @@ This project is an Event Booking System that allows users to create events, book
 
 ## Installation
 
-To run this application locally, you need to have Docker and npm installed. Follow these steps to set up and run the application:
+To run this application locally, you need to have 
 
-1. Clone the repository
+-  Docker 
+-  npm installed. 
+
+Follow these steps to set up and run the application:
+
+Pull the MongoDB Docker Image
+
+    docker pull mongodb
+
+Run the Image as a Container
+
+    docker run --name mongodb -p 27017:27017 -d mongodb
+
+
+Clone the repository
  
-       git clone https://github.com/shashikiran6sk/EventMngt/
+    git clone https://github.com/shashikiran6sk/EventMngt/
 
-       cd EventMngt
+    cd EventMngt
 
 Install dependencies
 
